@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F8FAFB;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+/* 
+.gradient {
+    background:linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+} */
+
+
+/* .opacity {
+    opacity: 0.2;
+} */
+
+.msg-notif,
+.bell-notif {
+    right: -2px;
+    top: 10px;
+}
+
+button {
+    width: 90px;
+}
+
+.cursorpointer {
+    cursor: pointer;
+}
+
+.btnlabel {
+    background-color: #F2F4F6;
+    color: #778CA2;
+    width: 120px;
+}
+
+.btnlabel:hover {
+    color: #778CA2;
+}
+
+.btnbehance {
+    background-color: #F1F5FF;
+    color: #4D7CFE;
+    width: 90px;
+    height: 35px;
+    font-weight: normal;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.btndribbble {
+    background-color: #FFF1F7;
+    color: #FE4D97;
+    width: 90px;
+    height: 35px;
+    font-weight: normal;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.btnspotify {
+    background-color: #F3FBEE;
+    color: #6DD230;
+    width: 90px;
+    height: 35px;
+    font-weight: normal;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.btnsketch {
+    background-color: #FFF8EE;
+    color: #FFAB2B;
+    width: 90px;
+    height: 35px;
+    font-weight: normal;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.btniotask {
+    background-color: #F8F9FA;
+    color: #778CA2;
+    width: 90px;
+    height: 35px;
+    font-weight: normal;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.form-control {
+    border: 0;
+    box-shadow: none;
+}
+
+.datepicker-toggle {
+    display: inline-block;
+    position: relative;
+    width: 18px;
+    height: 19px;
+}
+
+.datepicker-toggle-button {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../assets/images/calendar.svg');
+}
+
+.datepicker-input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.datepicker-input::-webkit-calendar-picker-indicator {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.color-area {
+    background-color: #F8FAFB;
+}
+
+.navbar {
+    height: 64px;
+}
+
+.texttittle {
+    color: #252631;
+}
+
+.textsub {
+    color: #778CA2;
+}
+
+.textsub2 {
+    color: #98A9BC;
+}
+
+.textsize {
+    font-size: small;
+    color: #98A9BC;
+}
+
+.textfooter {
+    color: #98A9BC;
+    font-family: 'Roboto';
+}
+
+.cardcontainer {
+    /* width: 360px; */
+    /* height: 356px; */
+    border: solid;
+    border-width: 1px;
+    border-color: #DDDEDF;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.08);
+    box-sizing: border-box;
+    background-color: #ffffff;
+}
+
+.circle-with-text {
+    background: #F2F4F6;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+    /* padding: 15px; */
+    display: flex;
+    height: 100px;
+    width: 100px;
+    color: #98A9BC;
+}
+
+.avatar img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 3px solid white;
+    display: inline-block;
+    position: relative;
+    left: -5px;
+    margin-left: -20px;
+    z-index: 1;
+}
+
+.avatars {
+    direction: ltr;
+    /* This is to get the stack with left on top */
+    text-align: left;
+    /* Now need to explitly align left */
+    padding-left: 25px;
+    /* Same value as the negative margin */
+}
+
+.bgprogress1 {
+    background-color: #6DD230;
+}
+
+.bgprogress2 {
+    background-color: #FE4D97;
+}
+
+.pagination {
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+}
+
+.pagination li {
+    display: inline;
+    text-align: center;
+}
+
+.pagination a {
+    float: left;
+    display: block;
+    font-size: 16px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.modal-3 a {
+    margin: 20px;
+    /* margin-left: 20px;
+    margin-right: 20px; */
+    /* padding: 0px; */
+    /* padding-left: 10px;
+    padding-right: 10px; */
+}
+
+.modal-3 a.active {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 50px;
+    width: 50px;
+    background-color: #4D7CFE;
+    border-radius: 10%;
+}
+
+.scroll-y {
+    height: 950px;
+    overflow-y: scroll;
+}
+
+.scrollbar::-webkit-scrollbar {
+    /* Chrome, Safari and Opera */
+    display: none;
+}
+
+.scrollbar {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+@media only screen and (max-width: 685px) {
+    .headerphone {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    .headertab {
+        display: none;
+    }
+}
